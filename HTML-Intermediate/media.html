@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media exercise</title>
+    <style>
+        body {
+            font: 14px/21px sans-serif;
+        }
+        a {
+            color: cornflowerblue;
+            text-decoration: none;
+            transition: all .3s ease;
+        }
+        a:hover {
+            color: darkblue;
+        }
+        img {
+            height: 300px;
+            width: 300px;
+        }
+        label {
+            min-width: 120px;
+            display: inline-block;
+        }
+        form div:not(:first-of-type) {
+            margin-top: .25em;
+        }
+        input[type="submit"] {
+            border:none;
+            background: cornflowerblue;
+            color: white;
+            font-size: 1.25em;
+            padding: .5em;
+            margin-top: .5em;
+        }
+        input[type="submit"]:hover {
+            background: darkblue;
+        }
+        iframe {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome Back!</h1>
+    <article>
+        <h2>Here's a great video from YouTube!</h2>
+        <iframe width="220" height="180" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </article>
+    <article>
+        <h2>Here's some music from Spotify!</h2>
+        <iframe src="https://embed.spotify.com/?uri=spotify:track:5JunxkcjfCYcY7xJ29tLai" allowtransparency="true"></iframe>
+    </article>
+    <article>
+        <h2>Want to stay informed?</h2>
+        <p>Put your info here!</p>
+        <form action="#">
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Your nice E-Mail">
+            </div>
+            <input type="submit" value="Join Our Mailing List!">
+        </form>
+    </article>
+</body>
+</html>
