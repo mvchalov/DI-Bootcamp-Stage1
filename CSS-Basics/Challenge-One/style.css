@@ -1,0 +1,19 @@
+#wrap {
+    font-family: sans-serif;
+    background-color: deepskyblue;
+    padding: 16px 8px;
+}
+
+h1 {
+    font-family: serif;
+    margin-top: 8px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li::first-letter {
+    font-size: 150%;
+}
