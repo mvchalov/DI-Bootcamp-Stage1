@@ -1,0 +1,18 @@
+.primary {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.secondary {
+    font-size: 24px;
+}
+#heading {
+    color: blue;
+    font-size: 36px;
+}
+
+#subheading {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
