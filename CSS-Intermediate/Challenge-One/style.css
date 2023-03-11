@@ -1,0 +1,32 @@
+body {
+    background: #364371;
+    font-family: sans-serif;
+}
+#wrap {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#nav {
+    background: #b0cfff;
+    min-width: 300px;
+}
+
+#nav,
+#content > div {
+    padding: 1em;
+}
+
+#content > div {
+    background: #5b7fbd;
+    text-align: center;
+}
+
+#content > p {
+    padding: .5em 1em 0;
+    text-align: center;
+}
+
+#content ul {
+    list-style: none;
+}

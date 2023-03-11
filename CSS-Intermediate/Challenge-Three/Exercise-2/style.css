@@ -1,0 +1,31 @@
+header, .holder div {
+    border: 2px solid #000;
+    min-height: 100px;
+}
+
+header {
+    background: #8e7cc3;
+    margin: 1em;
+}
+
+.holder {
+    display: flex;
+    gap: 1em;
+    margin: 0 1em;
+}
+
+.col {
+    width: 33%;
+}
+
+.col:first-of-type {
+    background: #e06666;
+}
+
+.col:nth-of-type(2) {
+    background: #93c47d;
+}
+
+.col:last-of-type {
+    background: #f90;
+}

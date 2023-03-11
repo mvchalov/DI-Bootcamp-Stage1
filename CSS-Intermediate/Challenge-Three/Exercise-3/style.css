@@ -1,0 +1,40 @@
+header, .holder div {
+    border: 2px solid #000;
+}
+
+header {
+    background: #009e0f;
+    margin: 1em;
+    min-height: 100px;
+}
+
+.holder {
+    display: flex;
+    gap: 1em;
+    margin: 0 1em;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 33%;
+    flex: 1 1 30%;
+    min-height: 300px;
+}
+
+.col:nth-last-of-type(3) {
+    background: #f90;
+}
+
+.col:nth-last-of-type(2) {
+    background: #cf2a27;
+}
+
+.col:last-of-type {
+    background: #6fa8dc;
+}
+
+.holder div.tree {
+    background: url("https://images.unsplash.com/photo-1458966480358-a0ac42de0a7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60") 50% 50% no-repeat;
+    background-size: cover;
+    border: none
+}

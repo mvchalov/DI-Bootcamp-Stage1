@@ -1,0 +1,30 @@
+.holder {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.holder > div {
+    border: 2px solid #000;
+    min-height: 100px;
+
+}
+
+.col-25 {
+    background: #ea9999;
+    flex-grow: 1;
+    width: 25%;
+}
+
+.col-75 {
+    background: #9fc5f8;
+    flex-grow: 3;
+    width: 70%;
+}
+
+.col-100 {
+    background: #ffe599;
+    width: 100%;
+    flex-grow: 4;
+}

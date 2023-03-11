@@ -1,0 +1,24 @@
+.col-4,
+.col-6,
+.col-12 {
+    width: 100%;
+}
+.row div {
+    border: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 766px) {
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 961px) {
+    .col-4 {
+        width: 33%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+}
